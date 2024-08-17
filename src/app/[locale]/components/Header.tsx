@@ -18,7 +18,6 @@ export const Header: FC<Props> = ({ locale }) => {
           <div className='mb-2 h-14 w-14'>
             <LogoIcon />
           </div>
-          <strong className='mx-2 select-none'>Template</strong>
         </div>
       </Link>
       <div className='flex flex-row items-center gap-3'>
@@ -31,14 +30,14 @@ export const Header: FC<Props> = ({ locale }) => {
         </nav>
         <ThemeSwitch />
         <LangSwitcher />
-        <a
+        {/* <a
           href='https://github.com/yahyaparvar/nextjs-template'
           target='_blank'
         >
           <div className='size-8'>
             <GithubIcon />
           </div>
-        </a>
+        </a> */}
       </div>
     </div>
   )
