@@ -9,7 +9,7 @@ export default function DashboardPage() {
         <h1 className='text-center text-7xl font-extrabold leading-tight'>
           {/* {t('An')}{' '} */}
           <span className='bg-span-bg bg-clip-text text-transparent'>
-            {t('Al-Hind')}
+            {t('AhlanHind')}
           </span>
           <br />
           {t('Travel Guide')}
@@ -19,7 +19,7 @@ export default function DashboardPage() {
             'An_approachable_performant_and_versatile_boilerplate_for_building_SSR_applications'
           )}
         </div> */}
-        
+
 
         {/* <div className='mt-4 flex flex-row gap-4'>
           <a
